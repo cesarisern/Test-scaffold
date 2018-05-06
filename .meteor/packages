@@ -23,12 +23,16 @@ less@2.7.11                    # Leaner CSS language
 
 meteortesting:mocha               # A package for writing and running your meteor app and package tests with mocha
 johanbrook:publication-collector  # Test a Meteor publication by collecting its output
+accounts-ui
 accounts-password
 <<<<<<< HEAD
 
 gwendall:auth-client-callbacks
+<<<<<<< HEAD
 ian:accounts-ui-bootstrap-3
 twbs:bootstrap
 stylus@=2.513.14
 =======
 >>>>>>> parent of 7aa8040... Added login and logout
+=======
+>>>>>>> parent of 33ce014... Testing new login UI
