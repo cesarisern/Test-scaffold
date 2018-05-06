@@ -24,7 +24,6 @@ Meteor.methods({
       Content,
       UTMUrl,
       createdAt: new Date(),
-      owner: Meteor.userId(),           // _id of logged in user
     });
   },
 });
