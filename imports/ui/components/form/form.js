@@ -1,8 +1,7 @@
+import React from 'react';
 import { Links } from '/imports/api/links/links.js';
 import { Meteor } from 'meteor/meteor';
 import './form.html';
-
-
 
 Template.form.onCreated(function () {
   Meteor.subscribe('links.all');
@@ -43,3 +42,11 @@ Template.form.events({
     });
   },
 });
+
+export default class HelloWorld extends React.Component {
+  render() {
+    return (
+      <h1>Hello World</h1>
+    );
+  }
+}
