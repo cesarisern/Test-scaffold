@@ -2,6 +2,8 @@ import { Links } from '/imports/api/links/links.js';
 import { Meteor } from 'meteor/meteor';
 import './form.html';
 
+
+
 Template.form.onCreated(function () {
   Meteor.subscribe('links.all');
 });
